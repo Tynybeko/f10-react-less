@@ -7,6 +7,7 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Elem from "./pages/Elem"
 import ELemParams from "./pages/ELemParams"
+import Auth from "./pages/Auth"
 export const Context = createContext(1)
 
 // const router = createBrowserRouter([
@@ -48,6 +49,7 @@ export default function App() {
               <Route path=":elemId" element={<ELemParams />} />
             </Route>
           </Route>
+          <Route path="auth" element={<Auth/>}/>
           <Route path="*" element={<div>404</div>} />
         </Routes>
       </BrowserRouter>
