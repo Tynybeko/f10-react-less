@@ -18,6 +18,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.border2 {
+  border-left-color: red;
+  border-right-color: blue;
+  border-bottom-color: blue;
+  border-top-color: blue;
+  border-width: 10px;
+
+}
+
+.active {
+  background-color: #1a1a1a;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
